@@ -15,7 +15,7 @@
 <h2>sql:param - 질의문에 매개변수 전달</h2>
 
 <!-- jdbc:mariadb://{host}[:{port}]/[{database}] -->
-<!-- jdbc:mariadb:// -->
+<!--  -->
 
 <c:set var="url"></c:set>
 <c:set var="drv">org.mariadb.jdbc.Driver</c:set>
