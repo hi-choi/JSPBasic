@@ -18,11 +18,6 @@
 <sql:setDataSource var="mariadb" url="${url}" driver="${drv}" 
 user="${usr}" password="${pwd}"/>
 
-<!--  DB연결 관련 변수 선언 -->
-<c:set var="url">jdbc:mariadb://bigdata.c9w8jbh68v0y.ap-northeast-2.rds.amazonaws.com:3306/playground</c:set>
-<c:set var="drv">org.mariadb.jdbc.Driver</c:set>
-<c:set var="usr">playground</c:set>
-<c:set var="pwd">bigdata2020</c:set>
 
 <!-- 한글 처리 -->
 <fmt:requestEncoding value="UTF-8"/>
